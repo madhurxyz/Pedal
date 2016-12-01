@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */; };
+		E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97E01DF0D65F00BC31B9 /* ViewController.swift */; };
+		E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D97E21DF0D65F00BC31B9 /* Main.storyboard */; };
+		E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */; };
+		E06D97E91DF0D65F00BC31B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */; };
+		E06D97EC1DF0D65F00BC31B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */; };
+		E06D97F71DF0D65F00BC31B9 /* PedalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97F61DF0D65F00BC31B9 /* PedalTests.swift */; };
+		E06D98021DF0D65F00BC31B9 /* PedalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E06D97F31DF0D65F00BC31B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06D97D31DF0D65F00BC31B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06D97DA1DF0D65F00BC31B9;
+			remoteInfo = Pedal;
+		};
+		E06D97FE1DF0D65F00BC31B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E06D97D31DF0D65F00BC31B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E06D97DA1DF0D65F00BC31B9;
+			remoteInfo = Pedal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E06D97DB1DF0D65F00BC31B9 /* Pedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E06D97E01DF0D65F00BC31B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E06D97E31DF0D65F00BC31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pedal.xcdatamodel; sourceTree = "<group>"; };
+		E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E06D97EB1DF0D65F00BC31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E06D97ED1DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06D97F21DF0D65F00BC31B9 /* PedalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D97F61DF0D65F00BC31B9 /* PedalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalTests.swift; sourceTree = "<group>"; };
+		E06D97F81DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalUITests.swift; sourceTree = "<group>"; };
+		E06D98031DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E06D97D81DF0D65F00BC31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97EF1DF0D65F00BC31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97FA1DF0D65F00BC31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E06D97D21DF0D65E00BC31B9 = {
+			isa = PBXGroup;
+			children = (
+				E06D97DD1DF0D65F00BC31B9 /* Pedal */,
+				E06D97F51DF0D65F00BC31B9 /* PedalTests */,
+				E06D98001DF0D65F00BC31B9 /* PedalUITests */,
+				E06D97DC1DF0D65F00BC31B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E06D97DC1DF0D65F00BC31B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06D97DB1DF0D65F00BC31B9 /* Pedal.app */,
+				E06D97F21DF0D65F00BC31B9 /* PedalTests.xctest */,
+				E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E06D97DD1DF0D65F00BC31B9 /* Pedal */ = {
+			isa = PBXGroup;
+			children = (
+				E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */,
+				E06D97E01DF0D65F00BC31B9 /* ViewController.swift */,
+				E06D97E21DF0D65F00BC31B9 /* Main.storyboard */,
+				E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */,
+				E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */,
+				E06D97ED1DF0D65F00BC31B9 /* Info.plist */,
+				E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */,
+			);
+			path = Pedal;
+			sourceTree = "<group>";
+		};
+		E06D97F51DF0D65F00BC31B9 /* PedalTests */ = {
+			isa = PBXGroup;
+			children = (
+				E06D97F61DF0D65F00BC31B9 /* PedalTests.swift */,
+				E06D97F81DF0D65F00BC31B9 /* Info.plist */,
+			);
+			path = PedalTests;
+			sourceTree = "<group>";
+		};
+		E06D98001DF0D65F00BC31B9 /* PedalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */,
+				E06D98031DF0D65F00BC31B9 /* Info.plist */,
+			);
+			path = PedalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E06D97DA1DF0D65F00BC31B9 /* Pedal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D98061DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "Pedal" */;
+			buildPhases = (
+				E06D97D71DF0D65F00BC31B9 /* Sources */,
+				E06D97D81DF0D65F00BC31B9 /* Frameworks */,
+				E06D97D91DF0D65F00BC31B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pedal;
+			productName = Pedal;
+			productReference = E06D97DB1DF0D65F00BC31B9 /* Pedal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E06D97F11DF0D65F00BC31B9 /* PedalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D98091DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalTests" */;
+			buildPhases = (
+				E06D97EE1DF0D65F00BC31B9 /* Sources */,
+				E06D97EF1DF0D65F00BC31B9 /* Frameworks */,
+				E06D97F01DF0D65F00BC31B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06D97F41DF0D65F00BC31B9 /* PBXTargetDependency */,
+			);
+			name = PedalTests;
+			productName = PedalTests;
+			productReference = E06D97F21DF0D65F00BC31B9 /* PedalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E06D97FC1DF0D65F00BC31B9 /* PedalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06D980C1DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalUITests" */;
+			buildPhases = (
+				E06D97F91DF0D65F00BC31B9 /* Sources */,
+				E06D97FA1DF0D65F00BC31B9 /* Frameworks */,
+				E06D97FB1DF0D65F00BC31B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06D97FF1DF0D65F00BC31B9 /* PBXTargetDependency */,
+			);
+			name = PedalUITests;
+			productName = PedalUITests;
+			productReference = E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E06D97D31DF0D65F00BC31B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Madhur Malhotra";
+				TargetAttributes = {
+					E06D97DA1DF0D65F00BC31B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E06D97F11DF0D65F00BC31B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E06D97DA1DF0D65F00BC31B9;
+					};
+					E06D97FC1DF0D65F00BC31B9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E06D97DA1DF0D65F00BC31B9;
+					};
+				};
+			};
+			buildConfigurationList = E06D97D61DF0D65F00BC31B9 /* Build configuration list for PBXProject "Pedal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E06D97D21DF0D65E00BC31B9;
+			productRefGroup = E06D97DC1DF0D65F00BC31B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E06D97DA1DF0D65F00BC31B9 /* Pedal */,
+				E06D97F11DF0D65F00BC31B9 /* PedalTests */,
+				E06D97FC1DF0D65F00BC31B9 /* PedalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E06D97D91DF0D65F00BC31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D97EC1DF0D65F00BC31B9 /* LaunchScreen.storyboard in Resources */,
+				E06D97E91DF0D65F00BC31B9 /* Assets.xcassets in Resources */,
+				E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97F01DF0D65F00BC31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97FB1DF0D65F00BC31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E06D97D71DF0D65F00BC31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */,
+				E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */,
+				E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97EE1DF0D65F00BC31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D97F71DF0D65F00BC31B9 /* PedalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E06D97F91DF0D65F00BC31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06D98021DF0D65F00BC31B9 /* PedalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06D97F41DF0D65F00BC31B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06D97DA1DF0D65F00BC31B9 /* Pedal */;
+			targetProxy = E06D97F31DF0D65F00BC31B9 /* PBXContainerItemProxy */;
+		};
+		E06D97FF1DF0D65F00BC31B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E06D97DA1DF0D65F00BC31B9 /* Pedal */;
+			targetProxy = E06D97FE1DF0D65F00BC31B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E06D97E21DF0D65F00BC31B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D97E31DF0D65F00BC31B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06D97EB1DF0D65F00BC31B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E06D98041DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E06D98051DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E06D98071DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pedal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.Pedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E06D98081DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pedal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.Pedal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E06D980A1DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pedal.app/Pedal";
+			};
+			name = Debug;
+		};
+		E06D980B1DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PedalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pedal.app/Pedal";
+			};
+			name = Release;
+		};
+		E06D980D1DF0D65F00BC31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PedalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pedal;
+			};
+			name = Debug;
+		};
+		E06D980E1DF0D65F00BC31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PedalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pedal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E06D97D61DF0D65F00BC31B9 /* Build configuration list for PBXProject "Pedal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98041DF0D65F00BC31B9 /* Debug */,
+				E06D98051DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E06D98061DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "Pedal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D98071DF0D65F00BC31B9 /* Debug */,
+				E06D98081DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E06D98091DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D980A1DF0D65F00BC31B9 /* Debug */,
+				E06D980B1DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E06D980C1DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E06D980D1DF0D65F00BC31B9 /* Debug */,
+				E06D980E1DF0D65F00BC31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */,
+			);
+			currentVersion = E06D97E61DF0D65F00BC31B9 /* Pedal.xcdatamodel */;
+			path = Pedal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E06D97D31DF0D65F00BC31B9 /* Project object */;
+}
