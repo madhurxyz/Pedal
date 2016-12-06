@@ -22,32 +22,60 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiE-KG-5vz">
-                                <rect key="frame" x="146" y="528" width="83" height="32"/>
+                                <rect key="frame" x="31" y="505" width="313" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Check"/>
+                                <color key="backgroundColor" cyan="0.0" magenta="0.79561661073825507" yellow="0.59770868288590606" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <state key="normal" title="Check up">
+                                    <color key="titleColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </state>
                                 <connections>
-                                    <segue destination="09f-mN-3WZ" kind="show" id="M4X-GH-JPg"/>
+                                    <action selector="chekupButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3s-nr-pU7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xz-eJ-sOq">
-                                <rect key="frame" x="146" y="578" width="83" height="32"/>
+                                <rect key="frame" x="31" y="578" width="313" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logs"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <state key="normal" title="Records">
+                                    <color key="titleColor" cyan="0.0" magenta="0.79580012583892612" yellow="0.59676489093959728" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                </state>
                                 <connections>
-                                    <segue destination="P2M-iF-TH9" kind="show" id="yum-FL-oHz"/>
+                                    <action selector="recordsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKa-v7-BmJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bf-o1-45e">
-                                <rect key="frame" x="110" y="112" width="155" height="97"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi Nabil," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bf-o1-45e">
+                                <rect key="frame" x="31" y="48" width="313" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="33"/>
+                                <color key="textColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.79469903523489938" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You checked your pedals 3 weeks ago." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meT-yA-grn">
+                                <rect key="frame" x="31" y="110" width="313" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="33"/>
+                                <color key="textColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.79469903519999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You should take another look today!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hui-R7-tIw">
+                                <rect key="frame" x="31" y="222" width="313" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="33"/>
+                                <color key="textColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.79469903519999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xyf-L2-cPm"/>
+                    <connections>
+                        <outlet property="checkupButton" destination="xiE-KG-5vz" id="2B4-vV-n5S"/>
+                        <outlet property="lastCheckLabel" destination="meT-yA-grn" id="AEh-Ft-fEy"/>
+                        <outlet property="nameLabel" destination="7bf-o1-45e" id="QGd-Y2-uy6"/>
+                        <outlet property="recommendationLabel" destination="Hui-R7-tIw" id="zYN-jv-EYs"/>
+                        <outlet property="recordsButton" destination="0xz-eJ-sOq" id="8Sd-JH-OrQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -615,7 +643,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2gz-e0-FFE" id="yEX-KZ-ZWE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -635,7 +663,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="09f-mN-3WZ" customClass="StorageController" customModule="Pedal" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gxc-0p-9gu">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gxc-0p-9gu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

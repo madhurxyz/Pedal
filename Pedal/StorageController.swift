@@ -53,6 +53,9 @@ class StorageController: UINavigationController {
         //Date
         let date = Date()
         
+        //Sent
+        let sent = false
+        
         //Left
         let leftPulse = Pulse(felt: leftFelt!, beats: leftBeats!, strength: leftStrength!)
         let leftSense = Sensitivity(highSense: leftHighSense!, lowSense: leftLowSense!)
@@ -74,7 +77,7 @@ class StorageController: UINavigationController {
         let rightFoot = Right(pulse: rightPulse, sensitivity: rightSense, palm: rightPalm, ankle: rightAnkle, standing: rightStanding)
         
         //Checkup
-        let checkup = Checkup(left: leftFoot, right: rightFoot, date: date)
+        let checkup = Checkup(left: leftFoot, right: rightFoot, date: date, sent: sent)
         
         return checkup
         

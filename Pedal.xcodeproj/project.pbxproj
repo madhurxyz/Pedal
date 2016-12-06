@@ -17,6 +17,11 @@
 		E03A12981DF7469A00C27298 /* Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12971DF7469A00C27298 /* Right.swift */; };
 		E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12991DF746AB00C27298 /* Checkup.swift */; };
 		E03A129C1DF7475D00C27298 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A129B1DF7475D00C27298 /* Patient.swift */; };
+		E03A12A21DF76CD200C27298 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */; };
+		E03A12A31DF76CD200C27298 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A01DF76CD200C27298 /* Comfortaa-Light.ttf */; };
+		E03A12A41DF76CD200C27298 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */; };
+		E03A12A81DF76F8600C27298 /* PedalLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */; };
+		E03A12AA1DF76FF400C27298 /* PedalLogoRed.png in Resources */ = {isa = PBXBuildFile; fileRef = E03A12A91DF76FF400C27298 /* PedalLogoRed.png */; };
 		E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */; };
 		E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97E01DF0D65F00BC31B9 /* ViewController.swift */; };
 		E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D97E21DF0D65F00BC31B9 /* Main.storyboard */; };
@@ -55,6 +60,11 @@
 		E03A12971DF7469A00C27298 /* Right.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Right.swift; sourceTree = "<group>"; };
 		E03A12991DF746AB00C27298 /* Checkup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkup.swift; sourceTree = "<group>"; };
 		E03A129B1DF7475D00C27298 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		E03A12A01DF76CD200C27298 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PedalLogoWhite.png; sourceTree = "<group>"; };
+		E03A12A91DF76FF400C27298 /* PedalLogoRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PedalLogoRed.png; sourceTree = "<group>"; };
 		E06D97DB1DF0D65F00BC31B9 /* Pedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E06D97E01DF0D65F00BC31B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +122,18 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		E03A129E1DF76C9900C27298 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E03A12A91DF76FF400C27298 /* PedalLogoRed.png */,
+				E03A12A71DF76F8600C27298 /* PedalLogoWhite.png */,
+				E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */,
+				E03A12A01DF76CD200C27298 /* Comfortaa-Light.ttf */,
+				E03A12A11DF76CD200C27298 /* Comfortaa-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		E06D97D21DF0D65E00BC31B9 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +166,7 @@
 				E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */,
 				E06D97ED1DF0D65F00BC31B9 /* Info.plist */,
 				E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */,
+				E03A129E1DF76C9900C27298 /* Resources */,
 			);
 			path = Pedal;
 			sourceTree = "<group>";
@@ -273,9 +296,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03A12A21DF76CD200C27298 /* Comfortaa-Bold.ttf in Resources */,
 				E06D97EC1DF0D65F00BC31B9 /* LaunchScreen.storyboard in Resources */,
 				E06D97E91DF0D65F00BC31B9 /* Assets.xcassets in Resources */,
 				E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */,
+				E03A12A81DF76F8600C27298 /* PedalLogoWhite.png in Resources */,
+				E03A12AA1DF76FF400C27298 /* PedalLogoRed.png in Resources */,
+				E03A12A41DF76CD200C27298 /* Comfortaa-Regular.ttf in Resources */,
+				E03A12A31DF76CD200C27298 /* Comfortaa-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
