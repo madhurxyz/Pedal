@@ -31,6 +31,7 @@
                                 </state>
                                 <connections>
                                     <action selector="chekupButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A3s-nr-pU7"/>
+                                    <segue destination="09f-mN-3WZ" kind="show" id="VDS-M3-Bbz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0xz-eJ-sOq">
@@ -42,6 +43,7 @@
                                 </state>
                                 <connections>
                                     <action selector="recordsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKa-v7-BmJ"/>
+                                    <segue destination="P2M-iF-TH9" kind="show" id="wSh-lR-Sds"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi Nabil," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bf-o1-45e">
