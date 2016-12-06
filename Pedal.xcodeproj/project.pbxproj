@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12891DF7432F00C27298 /* Pulse.swift */; };
+		E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128B1DF7434000C27298 /* Sensitivity.swift */; };
+		E03A128E1DF7435000C27298 /* Palm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128D1DF7435000C27298 /* Palm.swift */; };
+		E03A12901DF7435D00C27298 /* Ankle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128F1DF7435D00C27298 /* Ankle.swift */; };
+		E03A12921DF7436100C27298 /* Standing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12911DF7436100C27298 /* Standing.swift */; };
+		E03A12941DF744EA00C27298 /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12931DF744EA00C27298 /* StorageController.swift */; };
+		E03A12961DF7464700C27298 /* Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12951DF7464700C27298 /* Left.swift */; };
+		E03A12981DF7469A00C27298 /* Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12971DF7469A00C27298 /* Right.swift */; };
+		E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12991DF746AB00C27298 /* Checkup.swift */; };
+		E03A129C1DF7475D00C27298 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A129B1DF7475D00C27298 /* Patient.swift */; };
 		E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */; };
 		E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06D97E01DF0D65F00BC31B9 /* ViewController.swift */; };
 		E06D97E41DF0D65F00BC31B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06D97E21DF0D65F00BC31B9 /* Main.storyboard */; };
@@ -35,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E03A12891DF7432F00C27298 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
+		E03A128B1DF7434000C27298 /* Sensitivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensitivity.swift; sourceTree = "<group>"; };
+		E03A128D1DF7435000C27298 /* Palm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palm.swift; sourceTree = "<group>"; };
+		E03A128F1DF7435D00C27298 /* Ankle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ankle.swift; sourceTree = "<group>"; };
+		E03A12911DF7436100C27298 /* Standing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Standing.swift; sourceTree = "<group>"; };
+		E03A12931DF744EA00C27298 /* StorageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
+		E03A12951DF7464700C27298 /* Left.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Left.swift; sourceTree = "<group>"; };
+		E03A12971DF7469A00C27298 /* Right.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Right.swift; sourceTree = "<group>"; };
+		E03A12991DF746AB00C27298 /* Checkup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkup.swift; sourceTree = "<group>"; };
+		E03A129B1DF7475D00C27298 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		E06D97DB1DF0D65F00BC31B9 /* Pedal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pedal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E06D97E01DF0D65F00BC31B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +96,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E03A12881DF7430C00C27298 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E03A12891DF7432F00C27298 /* Pulse.swift */,
+				E03A128B1DF7434000C27298 /* Sensitivity.swift */,
+				E03A128D1DF7435000C27298 /* Palm.swift */,
+				E03A128F1DF7435D00C27298 /* Ankle.swift */,
+				E03A12911DF7436100C27298 /* Standing.swift */,
+				E03A12951DF7464700C27298 /* Left.swift */,
+				E03A12971DF7469A00C27298 /* Right.swift */,
+				E03A12991DF746AB00C27298 /* Checkup.swift */,
+				E03A129B1DF7475D00C27298 /* Patient.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		E06D97D21DF0D65E00BC31B9 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +135,11 @@
 		E06D97DD1DF0D65F00BC31B9 /* Pedal */ = {
 			isa = PBXGroup;
 			children = (
+				E03A12881DF7430C00C27298 /* Model */,
+				E06D97E21DF0D65F00BC31B9 /* Main.storyboard */,
 				E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */,
 				E06D97E01DF0D65F00BC31B9 /* ViewController.swift */,
-				E06D97E21DF0D65F00BC31B9 /* Main.storyboard */,
+				E03A12931DF744EA00C27298 /* StorageController.swift */,
 				E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */,
 				E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */,
 				E06D97ED1DF0D65F00BC31B9 /* Info.plist */,
@@ -262,9 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03A12961DF7464700C27298 /* Left.swift in Sources */,
 				E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */,
+				E03A12921DF7436100C27298 /* Standing.swift in Sources */,
+				E03A129C1DF7475D00C27298 /* Patient.swift in Sources */,
 				E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */,
+				E03A12941DF744EA00C27298 /* StorageController.swift in Sources */,
 				E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */,
+				E03A12981DF7469A00C27298 /* Right.swift in Sources */,
+				E03A12901DF7435D00C27298 /* Ankle.swift in Sources */,
+				E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */,
+				E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */,
+				E03A128E1DF7435000C27298 /* Palm.swift in Sources */,
+				E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +557,7 @@
 				E06D98081DF0D65F00BC31B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E06D98091DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +566,7 @@
 				E06D980B1DF0D65F00BC31B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E06D980C1DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +575,7 @@
 				E06D980E1DF0D65F00BC31B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
