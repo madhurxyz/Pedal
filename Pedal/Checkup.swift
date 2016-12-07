@@ -10,12 +10,12 @@ import Foundation
 
 class Checkup {
     
-    var left: Left
-    var right: Right
+    var left: Foot
+    var right: Foot
     var date: Date
     var sent: Bool
     
-    init(left: Left, right: Right, date: Date, sent: Bool){
+    init(left: Foot, right: Foot, date: Date, sent: Bool){
         self.left = left
         self.right = right
         self.date = date

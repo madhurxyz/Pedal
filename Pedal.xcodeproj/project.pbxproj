@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0224C781DF7955700BA4D95 /* Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C771DF7955700BA4D95 /* Foot.swift */; };
 		E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12891DF7432F00C27298 /* Pulse.swift */; };
 		E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128B1DF7434000C27298 /* Sensitivity.swift */; };
 		E03A128E1DF7435000C27298 /* Palm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128D1DF7435000C27298 /* Palm.swift */; };
 		E03A12901DF7435D00C27298 /* Ankle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128F1DF7435D00C27298 /* Ankle.swift */; };
 		E03A12921DF7436100C27298 /* Standing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12911DF7436100C27298 /* Standing.swift */; };
 		E03A12941DF744EA00C27298 /* StorageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12931DF744EA00C27298 /* StorageController.swift */; };
-		E03A12961DF7464700C27298 /* Left.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12951DF7464700C27298 /* Left.swift */; };
-		E03A12981DF7469A00C27298 /* Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12971DF7469A00C27298 /* Right.swift */; };
 		E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12991DF746AB00C27298 /* Checkup.swift */; };
 		E03A129C1DF7475D00C27298 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A129B1DF7475D00C27298 /* Patient.swift */; };
 		E03A12A21DF76CD200C27298 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */; };
@@ -50,14 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0224C771DF7955700BA4D95 /* Foot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foot.swift; sourceTree = "<group>"; };
 		E03A12891DF7432F00C27298 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
 		E03A128B1DF7434000C27298 /* Sensitivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensitivity.swift; sourceTree = "<group>"; };
 		E03A128D1DF7435000C27298 /* Palm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palm.swift; sourceTree = "<group>"; };
 		E03A128F1DF7435D00C27298 /* Ankle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ankle.swift; sourceTree = "<group>"; };
 		E03A12911DF7436100C27298 /* Standing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Standing.swift; sourceTree = "<group>"; };
 		E03A12931DF744EA00C27298 /* StorageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageController.swift; sourceTree = "<group>"; };
-		E03A12951DF7464700C27298 /* Left.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Left.swift; sourceTree = "<group>"; };
-		E03A12971DF7469A00C27298 /* Right.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Right.swift; sourceTree = "<group>"; };
 		E03A12991DF746AB00C27298 /* Checkup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkup.swift; sourceTree = "<group>"; };
 		E03A129B1DF7475D00C27298 /* Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		E03A129F1DF76CD200C27298 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
@@ -114,8 +112,7 @@
 				E03A128D1DF7435000C27298 /* Palm.swift */,
 				E03A128F1DF7435D00C27298 /* Ankle.swift */,
 				E03A12911DF7436100C27298 /* Standing.swift */,
-				E03A12951DF7464700C27298 /* Left.swift */,
-				E03A12971DF7469A00C27298 /* Right.swift */,
+				E0224C771DF7955700BA4D95 /* Foot.swift */,
 				E03A12991DF746AB00C27298 /* Checkup.swift */,
 				E03A129B1DF7475D00C27298 /* Patient.swift */,
 			);
@@ -328,14 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03A12961DF7464700C27298 /* Left.swift in Sources */,
+				E0224C781DF7955700BA4D95 /* Foot.swift in Sources */,
 				E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */,
 				E03A12921DF7436100C27298 /* Standing.swift in Sources */,
 				E03A129C1DF7475D00C27298 /* Patient.swift in Sources */,
 				E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */,
 				E03A12941DF744EA00C27298 /* StorageController.swift in Sources */,
 				E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */,
-				E03A12981DF7469A00C27298 /* Right.swift in Sources */,
 				E03A12901DF7435D00C27298 /* Ankle.swift in Sources */,
 				E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */,
 				E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */,

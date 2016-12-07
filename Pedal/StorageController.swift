@@ -71,10 +71,10 @@ class StorageController: UINavigationController {
         let rightStanding = Standing(image: rightStandingImage!)
         
         //LeftFoot
-        let leftFoot = Left(pulse: leftPulse, sensitivity: leftSense, palm: leftPalm, ankle: leftAnkle, standing: leftStanding)
+        let leftFoot = Foot(pulse: leftPulse, sensitivity: leftSense, palm: leftPalm, ankle: leftAnkle, standing: leftStanding, side: false)
         
         //RightFoot
-        let rightFoot = Right(pulse: rightPulse, sensitivity: rightSense, palm: rightPalm, ankle: rightAnkle, standing: rightStanding)
+        let rightFoot = Foot(pulse: rightPulse, sensitivity: rightSense, palm: rightPalm, ankle: rightAnkle, standing: rightStanding, side: true)
         
         //Checkup
         let checkup = Checkup(left: leftFoot, right: rightFoot, date: date, sent: sent)
