@@ -18,8 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var recordsButton: UIButton!
     
     let name = "Nabil"
-    let lastCheck = "3 weeks" //replace with Date component of last record
-    let recommendation = "You should take another look today" //changes based on how long ago the previous check was
+    let recommendation = "You should take another look today!" //changes based on how long ago the previous check was
     
     let calendar =  Calendar(identifier: .gregorian)
     let format = DateComponentsFormatter()
@@ -41,15 +40,22 @@ class ViewController: UIViewController {
         format.allowedUnits = [.weekOfMonth]
         
         let todaysDate = Date()
-        let lastCheckDate = calendar.date(from: DateComponents(year: 2016, month:  11, day: 10, hour: 22, minute: 39))!
+        let lastCheckDate = calendar.date(from: DateComponents(year: 2015, month:  11, day: 10, hour: 22, minute: 39))! //Replace with date of last check
         
-        
-        let s = format.string(from: lastCheckDate, to: todaysDate)
-
+        let lastCheck = format.string(from: lastCheckDate, to: todaysDate)
+        let lastCheckString = "You checked your pedals <span style='color:#FF0000'>\(lastCheck!)</span> ago."
+        let encodedData = lastCheckString.data(using: String.Encoding.utf8)!
+        let attributedOptions = [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType]
+        do {
+            let attributedString = try NSAttributedString(data: encodedData, options: attributedOptions, documentAttributes: nil)
+            lastCheckLabel.attributedText = attributedString
+        } catch _ {
+            print("Cannont create attributed String")
+        }
         
         //Welcome Labels
-        nameLabel.text = "Hi \(name)"
-        lastCheckLabel.text = "You checked your pedals \(lastCheck) ago."
+        nameLabel.text = "Hi \(name),"
+//        lastCheckLabel.text = "You checked your pedals <font color=#FF0000>\(lastCheck!)</font> ago."
         recommendationLabel.text = recommendation
         
         //Checkup Button
