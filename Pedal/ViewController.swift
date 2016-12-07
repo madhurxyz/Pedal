@@ -45,7 +45,6 @@ class ViewController: UIViewController {
         
         
         let s = format.string(from: lastCheckDate, to: todaysDate)
-        print(s!)
 
         
         //Welcome Labels
