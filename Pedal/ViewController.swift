@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         format.allowedUnits = [.weekOfMonth]
         
         let todaysDate = Date()
-        let lastCheckDate = calendar.date(from: DateComponents(year: 2015, month:  11, day: 10, hour: 22, minute: 39))! //Replace with date of last check
+        let lastCheckDate = calendar.date(from: DateComponents(year: 2014, month:  11, day: 10, hour: 22, minute: 39))! //Replace with date of last check
         
         let lastCheck = format.string(from: lastCheckDate, to: todaysDate)
         
