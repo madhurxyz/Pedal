@@ -53,7 +53,7 @@
                                 <color key="textColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.79469903523489938" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You checked your pedals 3 weeks ago." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meT-yA-grn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You checked your pedals" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="meT-yA-grn">
                                 <rect key="frame" x="31" y="110" width="313" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="30"/>
@@ -67,13 +67,20 @@
                                 <color key="textColor" cyan="0.0" magenta="0.0" yellow="0.0" black="0.79469903519999996" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 weeks ago." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWH-bb-9eQ">
+                                <rect key="frame" x="131" y="156" width="213" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="30"/>
+                                <color key="textColor" cyan="0.0" magenta="0.79821203859060408" yellow="0.60413171140939592" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xyf-L2-cPm"/>
                     <connections>
                         <outlet property="checkupButton" destination="xiE-KG-5vz" id="2B4-vV-n5S"/>
-                        <outlet property="lastCheckLabel" destination="meT-yA-grn" id="AEh-Ft-fEy"/>
+                        <outlet property="lastCheckLabel" destination="xWH-bb-9eQ" id="VqL-cZ-gav"/>
                         <outlet property="nameLabel" destination="7bf-o1-45e" id="QGd-Y2-uy6"/>
                         <outlet property="recommendationLabel" destination="Hui-R7-tIw" id="zYN-jv-EYs"/>
                         <outlet property="recordsButton" destination="0xz-eJ-sOq" id="8Sd-JH-OrQ"/>

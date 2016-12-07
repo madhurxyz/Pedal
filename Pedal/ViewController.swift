@@ -43,19 +43,10 @@ class ViewController: UIViewController {
         let lastCheckDate = calendar.date(from: DateComponents(year: 2015, month:  11, day: 10, hour: 22, minute: 39))! //Replace with date of last check
         
         let lastCheck = format.string(from: lastCheckDate, to: todaysDate)
-        let lastCheckString = "You checked your pedals <span style='color:#FF0000'>\(lastCheck!)</span> ago."
-        let encodedData = lastCheckString.data(using: String.Encoding.utf8)!
-        let attributedOptions = [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType]
-        do {
-            let attributedString = try NSAttributedString(data: encodedData, options: attributedOptions, documentAttributes: nil)
-            lastCheckLabel.attributedText = attributedString
-        } catch _ {
-            print("Cannont create attributed String")
-        }
         
         //Welcome Labels
         nameLabel.text = "Hi \(name),"
-//        lastCheckLabel.text = "You checked your pedals <font color=#FF0000>\(lastCheck!)</font> ago."
+        lastCheckLabel.text = "\(lastCheck!) ago."
         recommendationLabel.text = recommendation
         
         //Checkup Button
