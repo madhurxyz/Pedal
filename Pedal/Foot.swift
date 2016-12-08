@@ -24,4 +24,19 @@ struct Foot {
         self.standing = standing
         self.side = side
     }
+    
+    func itemByCategory(category:Category) -> (UIImage, UIImage?){
+        switch category {
+        case .ankle:
+            return (self.ankle.image, nil)
+        case .palm:
+            return (self.palm.image, nil)
+        case .standing:
+            return (self.standing.image, nil)
+        case .sensitivity:
+            return (self.sensitivity.highSense, self.sensitivity.lowSense)
+        default:
+            return (self.ankle.image, self.ankle.image) // fill with warning image later for debug purposes
+        }
+    }
 }

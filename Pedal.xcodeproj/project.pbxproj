@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1953CE73A2E3B212B84869D2 /* Pods_PedalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694931B01805CC5F2CF38F07 /* Pods_PedalUITests.framework */; };
+		341FC3B30CCFC97A7950BF9D /* Pods_PedalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCFADC6B40D6342AEFAFECE /* Pods_PedalTests.framework */; };
+		67026E49E65C8E721C07BA90 /* Pods_Pedal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D407C4A0552CF29986A9B7F3 /* Pods_Pedal.framework */; };
+		BD60F7E81DF79D3700C096DE /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7E61DF79D3700C096DE /* RecordsViewController.swift */; };
+		BD60F7E91DF79D3700C096DE /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7E71DF79D3700C096DE /* RecordsTableViewCell.swift */; };
+		BD60F7EB1DF79D6200C096DE /* SeeCheckupCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7EA1DF79D6200C096DE /* SeeCheckupCollectionViewController.swift */; };
+		BD60F7ED1DF79F8300C096DE /* CheckupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7EC1DF79F8300C096DE /* CheckupCollectionViewCell.swift */; };
+		BD60F7EF1DF7A07800C096DE /* PulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7EE1DF7A07800C096DE /* PulseView.swift */; };
+		BD60F7F31DF8940200C096DE /* SeeCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7F21DF8940200C096DE /* SeeCategoryViewController.swift */; };
+		BD60F7F81DF89F7C00C096DE /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7F71DF89F7C00C096DE /* CategoryCollectionViewCell.swift */; };
+		BD60F7FA1DF8E14A00C096DE /* PulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7F91DF8E14A00C096DE /* PulseViewController.swift */; };
+		BD60F7FC1DF921F200C096DE /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7FB1DF921F200C096DE /* LineChart.swift */; };
+		BD60F8001DF9E44D00C096DE /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7FF1DF9E44D00C096DE /* Email.swift */; };
 		E0224C781DF7955700BA4D95 /* Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C771DF7955700BA4D95 /* Foot.swift */; };
 		E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12891DF7432F00C27298 /* Pulse.swift */; };
 		E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128B1DF7434000C27298 /* Sensitivity.swift */; };
@@ -49,6 +62,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1004F8BA424F6C6BDC5D8B16 /* Pods-Pedal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pedal/Pods-Pedal.debug.xcconfig"; sourceTree = "<group>"; };
+		19CDDCDB0A19D7F68AB5CD87 /* Pods-PedalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB8200CB579C9B68FE5FE18 /* Pods-Pedal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pedal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pedal/Pods-Pedal.release.xcconfig"; sourceTree = "<group>"; };
+		4DCFADC6B40D6342AEFAFECE /* Pods_PedalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		694931B01805CC5F2CF38F07 /* Pods_PedalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PedalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0BD83CF2CB55FA4E96AA04 /* Pods-PedalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD60F7E61DF79D3700C096DE /* RecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordsViewController.swift; path = ../RecordsViewController.swift; sourceTree = "<group>"; };
+		BD60F7E71DF79D3700C096DE /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordsTableViewCell.swift; path = ../RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		BD60F7EA1DF79D6200C096DE /* SeeCheckupCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeeCheckupCollectionViewController.swift; path = ../SeeCheckupCollectionViewController.swift; sourceTree = "<group>"; };
+		BD60F7EC1DF79F8300C096DE /* CheckupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckupCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD60F7EE1DF7A07800C096DE /* PulseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseView.swift; sourceTree = "<group>"; };
+		BD60F7F21DF8940200C096DE /* SeeCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SeeCategoryViewController.swift; path = ../SeeCategoryViewController.swift; sourceTree = "<group>"; };
+		BD60F7F71DF89F7C00C096DE /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD60F7F91DF8E14A00C096DE /* PulseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseViewController.swift; sourceTree = "<group>"; };
+		BD60F7FB1DF921F200C096DE /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		BD60F7FF1DF9E44D00C096DE /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		D407C4A0552CF29986A9B7F3 /* Pods_Pedal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0224C771DF7955700BA4D95 /* Foot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foot.swift; sourceTree = "<group>"; };
 		E03A12891DF7432F00C27298 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
 		E03A128B1DF7434000C27298 /* Sensitivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensitivity.swift; sourceTree = "<group>"; };
@@ -77,6 +107,8 @@
 		E06D97FD1DF0D65F00BC31B9 /* PedalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PedalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06D98011DF0D65F00BC31B9 /* PedalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedalUITests.swift; sourceTree = "<group>"; };
 		E06D98031DF0D65F00BC31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F7C8514649AB8A3E8F9E4D /* Pods-PedalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF4142E6D4B1FCB49A110344 /* Pods-PedalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PedalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67026E49E65C8E721C07BA90 /* Pods_Pedal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341FC3B30CCFC97A7950BF9D /* Pods_PedalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +132,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1953CE73A2E3B212B84869D2 /* Pods_PedalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EB129714110751AC6CCD79E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D407C4A0552CF29986A9B7F3 /* Pods_Pedal.framework */,
+				4DCFADC6B40D6342AEFAFECE /* Pods_PedalTests.framework */,
+				694931B01805CC5F2CF38F07 /* Pods_PedalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD60F7F41DF89D7B00C096DE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E03A12931DF744EA00C27298 /* StorageController.swift */,
+				E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		BD60F7F51DF89D9100C096DE /* LogVCs */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F7E61DF79D3700C096DE /* RecordsViewController.swift */,
+				BD60F7E71DF79D3700C096DE /* RecordsTableViewCell.swift */,
+				BD60F7F61DF89DB900C096DE /* Records */,
+			);
+			name = LogVCs;
+			sourceTree = "<group>";
+		};
+		BD60F7F61DF89DB900C096DE /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				BD60F7EA1DF79D6200C096DE /* SeeCheckupCollectionViewController.swift */,
+				BD60F7EC1DF79F8300C096DE /* CheckupCollectionViewCell.swift */,
+				BD60F7F91DF8E14A00C096DE /* PulseViewController.swift */,
+				BD60F7FB1DF921F200C096DE /* LineChart.swift */,
+				BD60F7EE1DF7A07800C096DE /* PulseView.swift */,
+				BD60F7F21DF8940200C096DE /* SeeCategoryViewController.swift */,
+				BD60F7F71DF89F7C00C096DE /* CategoryCollectionViewCell.swift */,
+			);
+			name = Records;
+			sourceTree = "<group>";
+		};
+		C927DD0C9F686E2AC9495DE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1004F8BA424F6C6BDC5D8B16 /* Pods-Pedal.debug.xcconfig */,
+				2AB8200CB579C9B68FE5FE18 /* Pods-Pedal.release.xcconfig */,
+				19CDDCDB0A19D7F68AB5CD87 /* Pods-PedalTests.debug.xcconfig */,
+				FF4142E6D4B1FCB49A110344 /* Pods-PedalTests.release.xcconfig */,
+				7F0BD83CF2CB55FA4E96AA04 /* Pods-PedalUITests.debug.xcconfig */,
+				F6F7C8514649AB8A3E8F9E4D /* Pods-PedalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E03A12881DF7430C00C27298 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +206,7 @@
 				E0224C771DF7955700BA4D95 /* Foot.swift */,
 				E03A12991DF746AB00C27298 /* Checkup.swift */,
 				E03A129B1DF7475D00C27298 /* Patient.swift */,
+				BD60F7FF1DF9E44D00C096DE /* Email.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -138,6 +230,8 @@
 				E06D97F51DF0D65F00BC31B9 /* PedalTests */,
 				E06D98001DF0D65F00BC31B9 /* PedalUITests */,
 				E06D97DC1DF0D65F00BC31B9 /* Products */,
+				C927DD0C9F686E2AC9495DE0 /* Pods */,
+				8EB129714110751AC6CCD79E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,9 +250,9 @@
 			children = (
 				E03A12881DF7430C00C27298 /* Model */,
 				E06D97E21DF0D65F00BC31B9 /* Main.storyboard */,
-				E06D97DE1DF0D65F00BC31B9 /* AppDelegate.swift */,
+				BD60F7F51DF89D9100C096DE /* LogVCs */,
+				BD60F7F41DF89D7B00C096DE /* Utility */,
 				E06D97E01DF0D65F00BC31B9 /* ViewController.swift */,
-				E03A12931DF744EA00C27298 /* StorageController.swift */,
 				E06D97E81DF0D65F00BC31B9 /* Assets.xcassets */,
 				E06D97EA1DF0D65F00BC31B9 /* LaunchScreen.storyboard */,
 				E06D97ED1DF0D65F00BC31B9 /* Info.plist */,
@@ -193,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E06D98061DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "Pedal" */;
 			buildPhases = (
+				EE2B88DFABC91ABBE11A6AB2 /* [CP] Check Pods Manifest.lock */,
 				E06D97D71DF0D65F00BC31B9 /* Sources */,
 				E06D97D81DF0D65F00BC31B9 /* Frameworks */,
 				E06D97D91DF0D65F00BC31B9 /* Resources */,
+				E41D6C6C4D6F9CB1501F4701 /* [CP] Embed Pods Frameworks */,
+				AFF689AEAB81EF7C1AD897E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +307,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E06D98091DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalTests" */;
 			buildPhases = (
+				B09BF18EB6D1E7142B51D21D /* [CP] Check Pods Manifest.lock */,
 				E06D97EE1DF0D65F00BC31B9 /* Sources */,
 				E06D97EF1DF0D65F00BC31B9 /* Frameworks */,
 				E06D97F01DF0D65F00BC31B9 /* Resources */,
+				1DF472D90D9B0231A99C2F26 /* [CP] Embed Pods Frameworks */,
+				FD24C907230FB87D80900E2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,9 +328,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E06D980C1DF0D65F00BC31B9 /* Build configuration list for PBXNativeTarget "PedalUITests" */;
 			buildPhases = (
+				513386659A0A12548C79C42A /* [CP] Check Pods Manifest.lock */,
 				E06D97F91DF0D65F00BC31B9 /* Sources */,
 				E06D97FA1DF0D65F00BC31B9 /* Frameworks */,
 				E06D97FB1DF0D65F00BC31B9 /* Resources */,
+				9A274B8B334E2B14C1E69F66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,7 +351,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Madhur Malhotra";
 				TargetAttributes = {
 					E06D97DA1DF0D65F00BC31B9 = {
@@ -320,23 +422,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF472D90D9B0231A99C2F26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513386659A0A12548C79C42A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A274B8B334E2B14C1E69F66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalUITests/Pods-PedalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF689AEAB81EF7C1AD897E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedal/Pods-Pedal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09BF18EB6D1E7142B51D21D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E41D6C6C4D6F9CB1501F4701 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pedal/Pods-Pedal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2B88DFABC91ABBE11A6AB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD24C907230FB87D80900E2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PedalTests/Pods-PedalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E06D97D71DF0D65F00BC31B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E0224C781DF7955700BA4D95 /* Foot.swift in Sources */,
+				BD60F7E91DF79D3700C096DE /* RecordsTableViewCell.swift in Sources */,
 				E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */,
 				E03A12921DF7436100C27298 /* Standing.swift in Sources */,
+				BD60F8001DF9E44D00C096DE /* Email.swift in Sources */,
 				E03A129C1DF7475D00C27298 /* Patient.swift in Sources */,
 				E06D97DF1DF0D65F00BC31B9 /* AppDelegate.swift in Sources */,
 				E03A12941DF744EA00C27298 /* StorageController.swift in Sources */,
+				BD60F7E81DF79D3700C096DE /* RecordsViewController.swift in Sources */,
+				BD60F7FA1DF8E14A00C096DE /* PulseViewController.swift in Sources */,
 				E06D97E71DF0D65F00BC31B9 /* Pedal.xcdatamodeld in Sources */,
+				BD60F7EF1DF7A07800C096DE /* PulseView.swift in Sources */,
+				BD60F7FC1DF921F200C096DE /* LineChart.swift in Sources */,
+				BD60F7F81DF89F7C00C096DE /* CategoryCollectionViewCell.swift in Sources */,
 				E03A12901DF7435D00C27298 /* Ankle.swift in Sources */,
 				E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */,
 				E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */,
+				BD60F7ED1DF79F8300C096DE /* CheckupCollectionViewCell.swift in Sources */,
 				E03A128E1DF7435000C27298 /* Palm.swift in Sources */,
 				E03A129A1DF746AB00C27298 /* Checkup.swift in Sources */,
+				BD60F7F31DF8940200C096DE /* SeeCategoryViewController.swift in Sources */,
+				BD60F7EB1DF79D6200C096DE /* SeeCheckupCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +644,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -459,6 +695,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -486,9 +723,12 @@
 		};
 		E06D98071DF0D65F00BC31B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1004F8BA424F6C6BDC5D8B16 /* Pods-Pedal.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pedal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.Pedal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,9 +738,12 @@
 		};
 		E06D98081DF0D65F00BC31B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB8200CB579C9B68FE5FE18 /* Pods-Pedal.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pedal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.Pedal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,10 +753,12 @@
 		};
 		E06D980A1DF0D65F00BC31B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CDDCDB0A19D7F68AB5CD87 /* Pods-PedalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PedalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,10 +769,12 @@
 		};
 		E06D980B1DF0D65F00BC31B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4142E6D4B1FCB49A110344 /* Pods-PedalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PedalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,9 +785,11 @@
 		};
 		E06D980D1DF0D65F00BC31B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0BD83CF2CB55FA4E96AA04 /* Pods-PedalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PedalUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -551,9 +800,11 @@
 		};
 		E06D980E1DF0D65F00BC31B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F7C8514649AB8A3E8F9E4D /* Pods-PedalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = PedalUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = madhur.xyz.PedalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
