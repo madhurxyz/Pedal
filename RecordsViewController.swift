@@ -12,17 +12,21 @@ import MessageUI
 class RecordsViewController: UIViewController, MFMailComposeViewControllerDelegate {
    //TODO: input all the UIImages that need to go in here
     
-    @IBOutlet weak var tableView: UITableView!
-    
+   
     var patient:Patient?
     var sortByDate = true
     var categories:[String] = ["Sensitivity", "Pulse", "Palm", "Ankle", "Standing"]
     var selectedCategory: Category?
     var selectedCheckup: Checkup?
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var changeDataButton: UIButton!
+    
 
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        changeDataButton.titleLabel!.text! = "Sort By Category"
 
     }
 
@@ -34,19 +38,27 @@ class RecordsViewController: UIViewController, MFMailComposeViewControllerDelega
     func assignImage(category:Category) -> UIImage{
         switch category{
         case .sensitivity:
-            return UIImage()
+            return #imageLiteral(resourceName: "pain")
         case .pulse:
-            return UIImage()
+            return #imageLiteral(resourceName: "heart-beat")
         case .palm:
-            return UIImage()
+            return #imageLiteral(resourceName: "footprint_black")
         case .ankle:
-            return UIImage()
+            return #imageLiteral(resourceName: "women-foot")
         case .standing:
-            return UIImage()
+            return #imageLiteral(resourceName: "foot-side-view-outline")
         }
     }
     
+    // Switch from dates to categories and vice versa
     @IBAction func changeData(){
+        if self.sortByDate{
+            //changing to categories
+            self.changeDataButton.titleLabel!.text! = "Sort by date"
+        }
+        else{
+            self.changeDataButton.titleLabel!.text! = "Sort by category"
+        }
         self.sortByDate = !self.sortByDate
         tableView.reloadData()
     }
@@ -112,10 +124,10 @@ extension RecordsViewController: UITableViewDelegate, UITableViewDataSource{
             dateFormatter.dateStyle = .long
             
             cell.title.text = dateFormatter.string(from: checkup.date)
-            cell.sentButton.setBackgroundImage(UIImage(), for: .normal)
+            cell.sentButton.setBackgroundImage(#imageLiteral(resourceName: "mail-sent"), for: .normal)
             
-            if checkup.sent{
-                cell.sentButton.setBackgroundImage(UIImage(), for: .normal)
+            if !checkup.sent{
+                cell.sentButton.alpha = CGFloat(0.50)
             }
         }
         
@@ -123,7 +135,7 @@ extension RecordsViewController: UITableViewDelegate, UITableViewDataSource{
             
             let thisCategory = categories[indexPath.row]
             self.selectedCategory = Category(rawValue: thisCategory)
-            cell.title.text = thisCategory
+            cell.title.text! = thisCategory
             let imageForCategory = assignImage(category: Category(rawValue: thisCategory)!)
             cell.sentButton.setBackgroundImage(imageForCategory, for: .normal)
         }

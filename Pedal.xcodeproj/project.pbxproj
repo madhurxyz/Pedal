@@ -20,6 +20,7 @@
 		BD60F7FA1DF8E14A00C096DE /* PulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7F91DF8E14A00C096DE /* PulseViewController.swift */; };
 		BD60F7FC1DF921F200C096DE /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7FB1DF921F200C096DE /* LineChart.swift */; };
 		BD60F8001DF9E44D00C096DE /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60F7FF1DF9E44D00C096DE /* Email.swift */; };
+		BDE17A051DFB411600B1815B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDE17A031DFB411600B1815B /* Model.xcdatamodeld */; };
 		E0224C781DF7955700BA4D95 /* Foot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0224C771DF7955700BA4D95 /* Foot.swift */; };
 		E03A128A1DF7432F00C27298 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A12891DF7432F00C27298 /* Pulse.swift */; };
 		E03A128C1DF7434000C27298 /* Sensitivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03A128B1DF7434000C27298 /* Sensitivity.swift */; };
@@ -78,6 +79,7 @@
 		BD60F7F91DF8E14A00C096DE /* PulseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseViewController.swift; sourceTree = "<group>"; };
 		BD60F7FB1DF921F200C096DE /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 		BD60F7FF1DF9E44D00C096DE /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		BDE17A041DFB411600B1815B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		D407C4A0552CF29986A9B7F3 /* Pods_Pedal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pedal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0224C771DF7955700BA4D95 /* Foot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foot.swift; sourceTree = "<group>"; };
 		E03A12891DF7432F00C27298 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				BD60F7EA1DF79D6200C096DE /* SeeCheckupCollectionViewController.swift */,
+				BDE17A031DFB411600B1815B /* Model.xcdatamodeld */,
 				BD60F7EC1DF79F8300C096DE /* CheckupCollectionViewCell.swift */,
 				BD60F7F91DF8E14A00C096DE /* PulseViewController.swift */,
 				BD60F7FB1DF921F200C096DE /* LineChart.swift */,
@@ -551,6 +554,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0224C781DF7955700BA4D95 /* Foot.swift in Sources */,
+				BDE17A051DFB411600B1815B /* Model.xcdatamodeld in Sources */,
 				BD60F7E91DF79D3700C096DE /* RecordsTableViewCell.swift in Sources */,
 				E06D97E11DF0D65F00BC31B9 /* ViewController.swift in Sources */,
 				E03A12921DF7436100C27298 /* Standing.swift in Sources */,
@@ -855,6 +859,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		BDE17A031DFB411600B1815B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDE17A041DFB411600B1815B /* Model.xcdatamodel */,
+			);
+			currentVersion = BDE17A041DFB411600B1815B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		E06D97E51DF0D65F00BC31B9 /* Pedal.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

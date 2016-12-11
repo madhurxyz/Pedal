@@ -75,7 +75,6 @@ extension SeeCheckupCollectionViewController: UICollectionViewDelegate, UICollec
             cell.title.text = "Standing"
             
         case 5:
-            
             let pulseView = PulseView()
             pulseView.beatsLabel.text = String(selectedFoot!.pulse.beats)
             pulseView.stengthLabel.text = String(selectedFoot!.pulse.strength)

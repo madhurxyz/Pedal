@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import RealmSwift
 
-class Checkup {
+class Checkup: Object {
     
-    var left: Foot
-    var right: Foot
-    var date: Date
-    var sent: Bool
+    dynamic var left: Foot
+    dynamic var right: Foot
+    dynamic var date: Date
+    dynamic var sent: Bool
     
     init(left: Foot, right: Foot, date: Date, sent: Bool){
         self.left = left

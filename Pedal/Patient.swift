@@ -7,13 +7,14 @@
 //
 
 import Foundation
+import RealmSwift
 
-class Patient {
+class Patient: Object {
     
-    var name: String
-    var email: String
-    var doctorEmail: String
-    var checkups: [Checkup]
+    dynamic var name: String
+    dynamic var email: String
+    dynamic var doctorEmail: String
+    dynamic var checkups: [Checkup]
     
     init(checkups: [Checkup], name:String, email:String, doctorEmail:String){
         self.checkups = checkups
@@ -21,4 +22,6 @@ class Patient {
         self.email = email
         self.doctorEmail = doctorEmail
     }
+    
+
 }
